@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'TTLakes', sans-serif;
+    background-color: #F8F8F8;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    font-weight: 400;
+    src: url(statics/TTLakes-Regular.eot),
+         url(statics/TTLakes-Regular.ttf) format('truetype'),
+         url(statics/TTLakes-Regular.woff) format('woff');
+
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    font-weight: 500;
+    src: url(statics/TTLakes-Medium.eot),
+         url(statics/TTLakes-Medium.ttf) format('truetype'),
+         url(statics/TTLakes-Medium.woff) format('woff');
+
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7E7E82;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 16px;
+}
