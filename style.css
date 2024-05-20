@@ -4,6 +4,28 @@ body {
     background-color: #F8F8F8;
 }
 
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #B5B6BC;
+    display: inline-block;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+    min-height: 150px;
+}
+
+.swiper-pagination {
+    --swiper-pagination-bottom: -32px;
+}
+
+.swiper-container {
+    position: relative;
+}
+
+
 @font-face {
     font-family: 'TTLakes';
     font-weight: 400;
@@ -34,7 +56,6 @@ body {
 .list {
     display: flex;
     list-style: none;
-    gap: 16px;
     padding: 0;
     margin: 16px;
 }
@@ -42,7 +63,6 @@ body {
 
 .list__list-item {
     display: flex;
-    max-width: 240px;
     height: 72px;
     background-color: #fff;
     border-radius: 6px;
@@ -76,4 +96,9 @@ body {
 
 .list__hp-logo {
     max-height: 52px;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
 }
