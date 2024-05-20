@@ -1,1 +1,1 @@
-new Swiper('');
+new Swiper('.main');
