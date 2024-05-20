@@ -22,11 +22,59 @@ body {
 
 }
 
-.heading {
+.header__heading {
     font-size: 16px;
     font-weight: 400;
     color: #7E7E82;
-    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
     margin: 0;
     padding: 16px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+    margin: 16px;
+}
+
+
+.list__list-item {
+    display: flex;
+    width: 240px;
+    height: 72px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    
+}
+
+.list__logo {
+    max-width: 128px;
+    max-height: 44px;
+}
+
+.list__go-button {
+    border: none;
+    background: none;
+    background-image: url('statics/go.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.list__acer-logo {
+    max-height: 25px;
+}
+
+.list__hp-logo {
+    max-height: 52px;
 }
