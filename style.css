@@ -106,9 +106,25 @@ body {
 .fade {
     position: absolute;
     z-index: 1;
-    left: 296px;
+    right: 0;
     top: 0;
     width: 24px;
     height: 81px;
     background-image: linear-gradient(to right, rgba(248,248,248,0.01), rgba(248,248,248,1));
 }
+
+ @media screen and (min-width: 768px) {
+    .list__list-item {
+        max-width: 224px;
+        margin-right: 0 !important;
+    }
+
+    .list {
+        flex-wrap: wrap;
+        row-gap: 16px;
+        column-gap: 24px;
+        margin: 24px;
+    }
+
+    
+} 

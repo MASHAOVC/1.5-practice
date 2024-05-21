@@ -5,8 +5,6 @@ new Swiper('.swiper-container', {
         clickable: true,
     },
 
-    slidesPerView: 1.3,
-
     spaceBetween: 16,
 
     keyboard: {
@@ -20,4 +18,28 @@ new Swiper('.swiper-container', {
     },
 
     loop: true,
-});
+
+    breakpoints: {  
+        320: {
+          slidesPerView: 1.3,
+        },
+        380: {
+          slidesPerView: 1.6,
+        },
+        440: {
+          slidesPerView: 1.8,
+        },
+        500: {
+          slidesPerView: 2,
+        },
+        560: {
+            slidesPerView: 2.3,
+        },
+        640: {
+          slidesPerView: 3,
+        },
+        768: {
+          enabled: false,
+        },
+      },
+    });
