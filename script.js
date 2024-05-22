@@ -43,3 +43,11 @@ new Swiper('.swiper-container', {
         },
       },
     });
+
+
+let showMoreButton = document.querySelector('.show-more');
+let [icon, text] = showMoreButton.children;
+
+showMoreButton.addEventListener('click' function () {
+
+});
