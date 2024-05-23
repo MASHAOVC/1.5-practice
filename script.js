@@ -47,7 +47,21 @@ new Swiper('.swiper-container', {
 
 let showMoreButton = document.querySelector('.show-more');
 let [icon, text] = showMoreButton.children;
+let isOpen = false;
 
 showMoreButton.addEventListener('click' function () {
+    if (isOpen) {
+
+        if (window.innerWidth >= 768 && window.innerWidth < 1060) {
+
+
+        } else if (window.innerWidth >= 1060) {
+
+        }
+    
+    icon.src = 'statics\icon-close.png';
+    text.textContent = 'Скрыть'    
+    isOpen = true;
+    }
 
 });
