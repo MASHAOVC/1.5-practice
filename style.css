@@ -180,4 +180,8 @@ body {
     .hidden-showed {
         display: none;
     }
+
+    .list__list-item--show1120 {
+        width: 240px;
+    }
 }

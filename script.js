@@ -51,7 +51,6 @@ let hiddenItems768 = document.querySelectorAll('.list__list-item--hidden768');
 let showenItems1120 = document.querySelectorAll('.list__list-item--show1120');
 let lenovoItem = document.querySelector('.hidden-showed');
 let isOpen = false;
-console.log(hiddenItems768)
 
 showMoreButton.addEventListener('click', function () {
     if (isOpen) {
@@ -72,7 +71,7 @@ showMoreButton.addEventListener('click', function () {
             lenovoItem.style.display = 'none';
         }
 
-        icon.src = 'statics\icon.png';
+        icon.src = 'statics/icon.png';
         text.textContent = 'Показать все';
         isOpen = false;     
     } else {
@@ -93,7 +92,7 @@ showMoreButton.addEventListener('click', function () {
         lenovoItem.style.display = 'flex';
     }
     
-        icon.src = 'statics\icon-close.png';
+        icon.src = 'statics/icon-close.png';
         text.textContent = 'Скрыть';    
         isOpen = true;
     }
