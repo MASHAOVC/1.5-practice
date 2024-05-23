@@ -49,7 +49,6 @@ let showMoreButton = document.querySelector('.show-more');
 let [icon, text] = showMoreButton.children;
 let hiddenItems768 = document.querySelectorAll('.list__list-item--hidden768');
 let hiddenItems1100 = document.querySelectorAll('.list__list-item--hidden1100');
-let lenovoItem = document.querySelector('.hidden-showed');
 let isOpen = false;
 
 showMoreButton.addEventListener('click', function () {
@@ -65,7 +64,7 @@ showMoreButton.addEventListener('click', function () {
             
             for (let i = 0; i < hiddenItems1100.length; i++) {
                 let item = hiddenItems1100[i];
-            item.style.display = 'none';
+                item.style.display = 'none';
             }
 
         }
@@ -85,7 +84,7 @@ showMoreButton.addEventListener('click', function () {
 
             for (let i = 0; i < hiddenItems1100.length; i++) {
                 let item = hiddenItems1100[i];
-            item.style.display = 'flex';
+                item.style.display = 'flex';
         }
 
     }
